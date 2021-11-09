@@ -18,9 +18,9 @@ console.log(store.getState().quiz);
 export const App = () => {
   return (
     <Provider store={store}>
-      <h1>kuken{store.getState().quiz.quizOver.toString()}</h1>
+      <h1>hej: {store.getState().quiz.quizOver.toString()}</h1>
       {store.getState().quiz.quizOver === true && <LastPage />}
-      <CurrentQuestion />
+      <CurrentQue-stion />
     </Provider>
   );
 };

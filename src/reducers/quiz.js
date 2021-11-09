@@ -29,6 +29,7 @@ export const quiz = createSlice({
   initialState,
   reducers: {
     /* reducers is functions on how to update the store.tre functions that jobbar med olika delar av spelet... submit answers, go to next question and restart. */
+    
     /**
      * Use this action when a user selects an answer to the question.
      * The answer will be stored in the `quiz.answers` state with the
