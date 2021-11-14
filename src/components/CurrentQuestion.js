@@ -1,7 +1,7 @@
-import React from "react";
-import { useSelector, useDispatch } from "react-redux";
-import styled from "styled-components";
-import { quiz } from "../reducers/quiz";
+import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import styled from 'styled-components';
+import { quiz } from '../reducers/quiz';
 
 export const CurrentQuestion = () => {
   const question = useSelector(
@@ -37,8 +37,7 @@ export const CurrentQuestion = () => {
         <button
           type="button"
           key={item}
-          onClick={() => onAnswerSubmit(question.id, index)}
-        >
+          onClick={() => onAnswerSubmit(question.id, index)}>
           {item}
         </button>
       ))}
